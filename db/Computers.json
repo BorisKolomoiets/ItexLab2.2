@@ -1,0 +1,65 @@
+[
+  {
+    "_id": {
+      "$oid": "6073242f96d0ef0f74b84a16"
+    },
+    "name": "Computer1",
+    "year": {
+      "$date": "2020-04-10"
+    },
+    "guarantee": {
+      "$date": "2020-01-01"
+    },
+    "processor": "INTEL",
+    "memory": 16,
+    "hdd": 1000,
+    "software": [
+      "OpenServer",
+      "Postman",
+      "MongoDB"
+    ],
+    "vendor": "000"
+  },
+  {
+    "_id": {
+      "$oid": "6073242f96d0ef0f74b84a17"
+    },
+    "name": "Computer2",
+    "year": {
+      "$date": "2020-04-10"
+    },
+    "guarantee": {
+      "$date": "2022-04-10"
+    },
+    "processor": "AMD",
+    "memory": 8,
+    "hdd": 2000,
+    "software": [
+      "FireFox",
+      "Chrome",
+      "Skype"
+    ],
+    "vendor": "001"
+  },
+  {
+    "_id": {
+      "$oid": "6073242f96d0ef0f74b84a18"
+    },
+    "name": "Computer3",
+    "year": {
+      "$date": "2017-04-10"
+    },
+    "guarantee": {
+      "$date": "2019-04-10"
+    },
+    "processor": "INTEL",
+    "memory": 12,
+    "hdd": 500,
+    "software": [
+      "Telegram",
+      "Slack",
+      "Skype"
+    ],
+    "vendor": "002"
+  }
+]
